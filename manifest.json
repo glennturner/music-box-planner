@@ -1,0 +1,26 @@
+{
+	"name": "ExtraTender",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "An extension for hardcore Music Box Theatre filmgoers.",
+	"icons": { "16": "icon16.png",
+	           "48": "icon48.png",
+	           "128": "icon128.png"
+	},
+	"background": {
+		"scripts": [ "background.js" ]
+	},
+	"content_scripts": [
+		{
+			"matches": [ "https://*.musicboxtheatre.com/*", "http://*.tenderapp.com/*" ],
+			"js": [  "lib/music-box.js", "lib/music-box-planner.js", "contentscript.js" ],
+			"css": [ "css/extratender.css" ]
+		}
+	],
+	"permissions": [
+		"tabs",
+		"storage",
+		"*://*.tenderapp.com/*"
+	],
+	 "options_page": "fancy-settings/index.html"
+}
