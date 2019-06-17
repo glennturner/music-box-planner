@@ -12,15 +12,15 @@
 	},
 	"content_scripts": [
 		{
-			"matches": [ "https://*.musicboxtheatre.com/*", "http://*.tenderapp.com/*" ],
+			"matches": [ "https://*.musicboxtheatre.com/*", "http://*.musicboxtheatre.com/*" ],
 			"js": [  "lib/music-box.js", "lib/music-box-planner.js", "contentscript.js" ],
-			"css": [ "css/extratender.css" ]
+			"css": [ "css/music-box-planner.css" ]
 		}
 	],
 	"permissions": [
 		"tabs",
 		"storage",
-		"*://*.tenderapp.com/*"
+		"*://*.musicboxtheatre.com/*"
 	],
 	 "options_page": "fancy-settings/index.html"
 }
