@@ -1,26 +1,34 @@
 {
-	"name": "Music Box Planner",
-	"version": "0.0.1",
-	"manifest_version": 2,
-	"description": "An extension for hardcore Music Box Theatre filmgoers.",
-	"icons": { "16": "icon16.png",
-	           "48": "icon48.png",
-	           "128": "icon128.png"
-	},
-	"background": {
-		"scripts": [ "background.js" ]
-	},
-	"content_scripts": [
-		{
-			"matches": [ "https://*.musicboxtheatre.com/*", "http://*.musicboxtheatre.com/*" ],
-			"js": [  "lib/music-box.js", "lib/music-box-planner.js", "contentscript.js" ],
-			"css": [ "css/music-box-planner.css" ]
-		}
-	],
-	"permissions": [
-		"tabs",
-		"storage",
-		"*://*.musicboxtheatre.com/*"
-	],
-	 "options_page": "fancy-settings/index.html"
+  "name": "Music Box Planner",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "An extension for hardcore Music Box Theatre filmgoers.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://musicboxtheatre.com/*", "https://musicboxtheatre.com/*",
+        "https://*.musicboxtheatre.com/*", "http://*.musicboxtheatre.com/*"
+      ],
+      "js": [
+        "lib/music-box.js", "lib/music-box-planner.js",
+        "lib/util.js", "contentscript.js"
+      ],
+      "css": [ "css/music-box-planner.css" ]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "storage",
+    "*://musicboxtheatre.com/*",
+    "*://*.musicboxtheatre.com/*"
+  ],
+  "web_accessible_resources": [ "images/*.svg" ]
 }
