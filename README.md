@@ -1,26 +1,25 @@
 Music Box Planner
 ================================
 
-A Chrome extension for [Chicago's Music Box Website](http://musicboxtheatre.com) to see which films are shown in which screening room, and allows for quickly picking a calendar date.
+A Chrome extension for [Chicago's Music Box Theatre's website](http://musicboxtheatre.com) to see which films are shown in which screening room, quickly pick a showtime calendar date, and add showtimes to your Google Calendar.
 
 Why?
 ----
 
-I love Chicago's Music Box Theater. I've been attending screenings there for more years than I'll admit to. However, there's been one consistent issue with their website: it's always been difficult to figure out whether a film was playing in the main screening room, or the side screening room.
+I love Chicago's Music Box Theatre, and I've been attending screenings there for more years than I'll publicly admit to. However, as they've added more festivals to their programming, I've found myself wishing the website had a few more options to ease planning one's filmgoing itinerary. Consequently, this extension adds the following features to their website:
 
-Additionally, since they've started hosting more festivals (such as the Chicago Critics Film Fest and Cinepocalypse) it's been cumbersome to use their site to schedule a festival itinerary.
+- Adds a link to showtimes to view the room a film is screened in
 
-This plugin is meant for hardcore Music Box filmgoers and, hopefully, their web developers will integrate these features into their website in the future.
+- Adds a calendar picker to select showtime dates, as opposed to having to click through day-by-day
+
+- Allows you to add a future showtime to your Google Calendar
+
+PLEASE NOTE: Apart from being a paying Music Box Member, I have no affiliation with the Music Box Theatre or Music Box Films.
 
 Installation
 ------------
 
-This extension is available via the Chrome Web Store.
-
-Future Features
-----------------
-
-- Personal festival scheduling, so you can click to add events to your personal fest calendar and share the calendar with others.
+This extension is available to install directly via the Chrome Web Store, and requires no additional setup.
 
 Author
 ------
