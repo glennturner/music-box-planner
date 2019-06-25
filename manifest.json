@@ -1,8 +1,8 @@
 {
-  "name": "Music Box Planner",
-  "version": "1.0.0",
+  "name": "Music Box Filmtinerary",
+  "version": "1.0.1",
   "manifest_version": 2,
-  "description": "An extension for hardcore Music Box Theatre filmgoers.",
+  "description": "An extension for Music Box Theatre enthusiasts.",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
