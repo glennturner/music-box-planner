@@ -1,5 +1,11 @@
 # Changelog
 
+## v.1.0.2
+
+- Fixed calendar event issue that occurred when no future showtimes are available on the accessed page.
+
+- Improved calendar event triggers.
+
 ## v.1.0.1
 
 - Fixed calendar injection issue when there are no future showtimes for the requested date
