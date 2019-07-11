@@ -1,5 +1,13 @@
 # Changelog
 
+## v.1.0.4
+
+- Added loading spinner for calendar picker.
+
+- Improved disabled state for calendar picker.
+
+- Google Calendar links are now opened in a new window.
+
 ## v.1.0.2
 
 - Fixed calendar event issue that occurred when no future showtimes are available on the accessed page.
