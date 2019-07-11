@@ -30,3 +30,16 @@
 .showtime-add-to-calendar.music-box-planner-loading img {
   opacity: 0.3;
 }
+
+.mb-planner-calendar {
+  display: inline-block;
+  text-align: left;
+}
+
+.mb-planner-calendar.music-box-planner-loading {
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 45px;
+  padding-right: 50px;
+}
+
