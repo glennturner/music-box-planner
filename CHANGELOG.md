@@ -1,5 +1,9 @@
 # Changelog
 
+## v.1.0.5
+
+- Added 'Seats Remaining/Sold Out' support when doing a screen lookup.
+
 ## v.1.0.4
 
 - Added loading spinner for calendar picker.
