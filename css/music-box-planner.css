@@ -16,10 +16,10 @@
 }
 
 .showtime-add-to-calendar {
-  display: block;
+  display: inline-block;
   height: 100%;
   min-width: 48px;
-  margin-left: 1em;
+  margin-left: 0;
 }
 
 .music-box-planner-loading {

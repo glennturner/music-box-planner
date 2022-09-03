@@ -1,7 +1,7 @@
 {
   "name": "Music Box Filmtinerary",
-  "version": "1.1.1",
-  "manifest_version": 2,
+  "version": "1.2.0",
+  "manifest_version": 3,
   "description": "An extension for Music Box Theatre enthusiasts.",
   "icons": {
     "16": "icon16.png",
@@ -9,7 +9,7 @@
     "128": "icon128.png"
   },
   "background": {
-    "scripts": [ "background.js" ]
+    "service_worker": "background.js"
   },
   "content_scripts": [
     {
@@ -24,9 +24,15 @@
       "css": [ "css/music-box-planner.css" ]
     }
   ],
-  "permissions": [
+  "host_permissions": [
     "*://musicboxtheatre.com/*",
     "*://*.musicboxtheatre.com/*"
   ],
-  "web_accessible_resources": [ "images/*.svg" ]
+  "web_accessible_resources": [{
+    "resources": [ "images/*.svg" ],
+    "matches": [
+      "*://musicboxtheatre.com/*",
+      "*://*.musicboxtheatre.com/*"
+    ]
+  }]
 }
