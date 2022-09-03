@@ -1,4 +1,4 @@
-chrome.extension.sendRequest(
+chrome.runtime.sendMessage(
   {
     action: 'getSettings'
   }, (settings) => {}
