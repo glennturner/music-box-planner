@@ -6,7 +6,10 @@ A Chrome extension for [Chicago's Music Box Theatre's website](http://musicboxth
 Why?
 ----
 
-I love Chicago's Music Box Theatre. It's a gorgeous venue with a great staff, and I've been attending screenings there for more years than I'll publicly admit to. However, as they've added more festivals to their schedule, I've found myself wishing the website had a few more options to ease planning one's filmgoing itinerary. Consequently, this extension adds the following features to their website:
+I love Chicago's Music Box Theatre. It's a gorgeous venue with a great staff, and I've been attending screenings there for more years than I'll publicly admit to. However, as they've added more festivals to their schedule, I've found myself wishing the website had a few more options to ease planning one's filmgoing itinerary.
+
+Features
+--------
 
 ### Current Features
 
