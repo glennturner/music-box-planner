@@ -17,8 +17,6 @@ Features
 
 ### Future Features
 
-- Add all screenings for a festival event to your Google Calendar
-
 - Add a month picker to the schedule calendar
 
 - Add support for 'Add to Calendar' links on the schedule calendar
