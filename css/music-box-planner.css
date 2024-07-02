@@ -38,3 +38,24 @@
   padding-right: 50px;
 }
 
+/* Mimic styled inputs for month/date/datetime elements */
+input.showtimes-calendar,
+.showtimes-calendar {
+  /*
+  background-clip: padding-box;
+  background-color: rgba(0, 0, 0);
+  background-image: url(https://musicboxtheatre.com/themes/custom/mb_theatre/images/icons/select-arrow.svg);
+  background-position-x: 100%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  border-style: solid;
+  border-color: rgb(242, 199, 92);
+  color: #F2C75C;
+  font-family: interstate, sans-serif;
+  font-size: 25.6px;
+  font-weight: 800;
+  min-width: 80px;
+  position: relative;
+  */
+}
