@@ -38,3 +38,45 @@
   padding-right: 50px;
 }
 
+/* Mimic styled inputs for month/date/datetime elements */
+#calendar-icon {
+  display: none;
+}
+
+.showtimes-calendar {
+  padding-bottom: 1.25em;
+  position: relative;
+}
+.showtimes-calendar.form-item {
+  margin: 0;
+}
+
+.showtimes-calendar::before {
+  content: '';
+  position: absolute;
+  top: 0.3em;
+  left: 0.65em;
+  width: 1.5em;
+  height: calc(100% - 2em);
+  background-image: url(/themes/custom/mb_theatre/images/icons/calendar-select.svg);
+  background-size: 100% auto;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.showtimes-calendar select {
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  white-space: break-spaces;
+  line-height: 1.1;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 2em;
+  position: relative;
+}
+
+.calendar-links .calendar-prev,
+.calendar-links .calendar-next {
+  display: none;
+}
