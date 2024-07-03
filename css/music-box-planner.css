@@ -76,7 +76,7 @@
   position: relative;
 }
 
-.calendar-links .calendar-prev,
-.calendar-links .calendar-next {
+#filters-and-sort .calendar-links .calendar-prev,
+#filters-and-sort .calendar-links .calendar-next {
   display: none;
 }
