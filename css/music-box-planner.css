@@ -6,6 +6,33 @@
   margin-right: 0;
 }
 
+#calendar.calendar-grid .times > a.showtime-add-to-calendar,
+#calendar.calendar-grid .times > a.showtime-purchase-ticket {
+  display: inline-block;
+}
+
+#calendar.calendar-grid .times > a.showtime-purchase-ticket {
+  width: 5em;
+}
+
+#calendar.calendar-grid .times > a.showtime-add-to-calendar {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 26px;
+  min-height: 26px;
+  max-height: 26px;
+  width: calc(100% - 85px);
+}
+
+#calendar.calendar-grid .times > a.showtime-add-to-calendar::before {
+  content: ''
+}
+
+.calendar-cell .showtime-add-to-calendar img {
+  height: 26px;
+}
+
 .showtime-add-to-calendar img {
   opacity: 1;
 }
@@ -20,7 +47,6 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 
 .showtime-add-to-calendar.music-box-planner-loading img {
   opacity: 0.3;
