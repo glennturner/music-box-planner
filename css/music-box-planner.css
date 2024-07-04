@@ -12,7 +12,7 @@
 }
 
 #calendar.calendar-grid .times > a.showtime-purchase-ticket {
-  width: 5em;
+  width: 4.5em;
 }
 
 #calendar.calendar-grid .times > a.showtime-add-to-calendar {
@@ -22,7 +22,8 @@
   height: 26px;
   min-height: 26px;
   max-height: 26px;
-  width: calc(100% - 85px);
+  min-width: 26px;
+  width: calc(100% - 4.5em);
 }
 
 #calendar.calendar-grid .times > a.showtime-add-to-calendar::before {
@@ -31,6 +32,17 @@
 
 .calendar-cell .showtime-add-to-calendar img {
   height: 26px;
+}
+
+@media (max-width: 991px) {
+  #calendar.calendar-grid .times > a.showtime-add-to-calendar {
+    padding-left: 0.75em;
+  }
+
+  #calendar.calendar-grid .times > a.showtime-purchase-ticket,
+  #calendar.calendar-grid .times > a.showtime-add-to-calendar {
+    width: auto;
+  }
 }
 
 .showtime-add-to-calendar img {
