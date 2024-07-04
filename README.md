@@ -17,6 +17,10 @@ Features
 
 - A calendar month/year picker for easier perusal of future and prior screenings
 
+### Future Features
+
+- Include add a showtime to your Google Calendar feature to grouped and special event pages
+
 ### Prior Features
 
 The redesign now includes these features, so they've been removed from the extension:
