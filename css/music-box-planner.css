@@ -6,6 +6,45 @@
   margin-right: 0;
 }
 
+#calendar.calendar-grid .times > a.showtime-add-to-calendar,
+#calendar.calendar-grid .times > a.showtime-purchase-ticket {
+  display: inline-block;
+}
+
+#calendar.calendar-grid .times > a.showtime-purchase-ticket {
+  width: 4.5em;
+}
+
+#calendar.calendar-grid .times > a.showtime-add-to-calendar {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 26px;
+  min-height: 26px;
+  max-height: 26px;
+  min-width: 26px;
+  width: calc(100% - 4.5em);
+}
+
+#calendar.calendar-grid .times > a.showtime-add-to-calendar::before {
+  content: ''
+}
+
+.calendar-cell .showtime-add-to-calendar img {
+  height: 26px;
+}
+
+@media (max-width: 991px) {
+  #calendar.calendar-grid .times > a.showtime-add-to-calendar {
+    padding-left: 0.75em;
+  }
+
+  #calendar.calendar-grid .times > a.showtime-purchase-ticket,
+  #calendar.calendar-grid .times > a.showtime-add-to-calendar {
+    width: auto;
+  }
+}
+
 .showtime-add-to-calendar img {
   opacity: 1;
 }
@@ -20,7 +59,6 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 
 .showtime-add-to-calendar.music-box-planner-loading img {
   opacity: 0.3;
@@ -38,3 +76,46 @@
   padding-right: 50px;
 }
 
+/* Mimic styled inputs for month/date/datetime elements */
+#calendar-icon {
+  display: none;
+}
+
+.showtimes-calendar {
+  display: flex;
+  padding-bottom: 1.25em;
+  position: relative;
+}
+.showtimes-calendar.form-item {
+  margin: 0.1em 0 0 0;
+}
+
+.showtimes-calendar::before {
+  content: '';
+  position: absolute;
+  top: 0.3em;
+  left: 0.65em;
+  width: 1.5em;
+  height: calc(100% - 2em);
+  background-image: url(/themes/custom/mb_theatre/images/icons/calendar-select.svg);
+  background-size: 100% auto;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.showtimes-calendar select {
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  white-space: break-spaces;
+  line-height: 1em;
+  height: 2em;
+  padding-left: 2em;
+  position: relative;
+  vertical-align: middle;
+}
+
+#filters-and-sort .calendar-links .calendar-prev,
+#filters-and-sort .calendar-links .calendar-next {
+  display: none;
+}

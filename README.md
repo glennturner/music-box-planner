@@ -13,25 +13,26 @@ Features
 
 ### Current Features
 
-- Allows you to add a future showtime to your Google Calendar
+- An option to add a showtime to your Google Calendar on relevant pages
+
+- A calendar month/year picker for easier perusal of future and prior screenings
 
 ### Future Features
 
-- Add a month picker to the schedule calendar
-
-- Add support for 'Add to Calendar' links on the schedule calendar
-
-- Allow support for 'Add to Calendar' links on -What's Playing- pages
+- Include add a showtime to your Google Calendar feature to grouped and special event pages
 
 ### Prior Features
 
 The redesign now includes these features, so they've been removed from the extension:
 
-- Adds a link to showtimes to discern the room a film is screened in
+- A link to showtimes to discern the room a film is screened in
 
-- Adds a calendar picker to select showtime dates, as opposed to having to click through day-by-day
+- A calendar picker to select showtime dates, as opposed to having to click through day-by-day
 
-PLEASE NOTE: Apart from being a paying Music Box Member, I have no affiliation with the Music Box Theatre or Music Box Films.
+Please Note
+-----------
+
+Apart from being a paying Music Box Member, I have no affiliation with the Music Box Theatre or Music Box Films.
 
 Installation
 ------------
@@ -45,6 +46,8 @@ Glenn Turner
 Email: development@peccaui.com
 
 Twitter: [@gturner](https://www.twitter.com/gturner)
+
+Bluesky: [@glennturner.bsky.social](https://bsky.app/profile/glennturner.bsky.social)
 
 License
 -------
